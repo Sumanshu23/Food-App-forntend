@@ -1,0 +1,188 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body
+{
+    background-color:#232323;
+    color:white;
+    font-family:sans-serif;
+}
+
+nav
+{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+main
+{
+    height: 620px;
+
+    background-image: url("https://wallpapers.com/images/hd/food-4k-m37wpodzrcbv5gvw.jpg");
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    
+    align-items: start;
+    justify-content: start;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+
+
+#Content h1
+{
+    font-size: 85px;
+    width: 600px;
+}
+
+#Content p
+{
+    font-size: 18px;
+    color: lightgray;
+    width: 600px;
+    margin-top: 30px;
+}
+
+#Btns-Tabs
+{
+    width: 400px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    column-gap: 15px;
+    margin-top: 50px;
+}
+
+.Box 
+{
+    text-align: center;
+    background-color: rgba(36, 36, 36, 0.789);
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+.Box img
+{
+    height: 90px;
+}
+
+.Box h3
+{
+    margin-top: 5px;
+    padding: 7px 23px;
+    background-color: rgb(255, 0, 98);
+    color: white;
+    border-radius: 30px;
+}
+
+#searchSection
+{
+    width: 100%;
+    padding: 25px 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#searchSection span
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    width: 50%;
+}
+
+#searchSection span input
+{
+
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+
+#searchSection span button
+{
+    background-color: rgb(255, 0, 98);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+#MenuItems
+{
+    height: 1200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.FoodCard
+{
+    height: 390px;
+    width: 340px;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+
+.FoodCard img
+{
+    width: 100%;
+    height: 60%;
+}
+
+
+.FoodCard h3
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.FoodCard p
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.FoodCard button
+{
+    background-color: rgb(255, 0, 98);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
